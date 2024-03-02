@@ -1,6 +1,6 @@
 .movie-list-container{
     position: relative;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
@@ -8,22 +8,20 @@
     font-size: 30px;
     color: white;
     font-weight: 600;
-    padding-left: 47px;
+    padding-left: 40px;
 }
 
 .movie-list-container .movies {
     display: grid;
-    grid-template-columns: repeat(2, 100%);
+    grid-template-columns: repeat(2,100%);
     overflow: hidden;
     scroll-behavior: smooth;
     margin-left: 40px;
 }
 .movie-list-container .movies .movie{
    margin-right: 15px;
-    // width: 15rem;
     height: 140px;
     transition: transform 200ms ease-in-out;
-    //  margin: 200ms ease-in-out;
     background-size: cover;
     background-position: center;
    
@@ -32,7 +30,7 @@
 
 .movie-list-container .movies .movie:hover{
     cursor: pointer;
-    // margin: 0px 10px;
+ margin: 0px 10px;
     transform: scale(1.1);
     
 }
@@ -45,13 +43,14 @@
 
 }
 .movie-list-container .movies section .Previous{
-    z-index: 1;
+   
   position:absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 .movie-list-container .movies section .Next{
     position:absolute;

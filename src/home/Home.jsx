@@ -1,5 +1,3 @@
-
-
 import Comedies from '../components/comedies/Comedies'
 import Featured from '../components/featured/Featured'
 import List from '../components/list/List'
@@ -12,23 +10,30 @@ import Tvshows from '../components/tvshows/Tvshows'
 import Toprated from '../components/toprated/Toprated'
 import './home.css'
 
-
-
+import Trending from '../components/trending/Trending'
 
 const Home = () => {
   return (
     <div className='home'>
          <Navbar/>
          <Featured/>
-         <List/>
-        <Toprated/>
+          {/* netflix originals */}
+         <List/> 
+         <Toprated/>
+         {/* horror movies */}
+         <Movies/>
+         {/* slider 1 */}
         <Swiper/>
+        {/* horror movies */}
         <Tvshows/>
-       <Movies/>
+      
+       {/* slider 2 3 4 */}
        <Comedies/> 
        <Animation/> 
         <Documentries/> 
-        
+        {/* <Tamilmovies /> */}
+        <Trending />
+      
     </div>
          
   )

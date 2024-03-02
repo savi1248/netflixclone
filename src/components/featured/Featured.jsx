@@ -1,7 +1,7 @@
 import React from 'react'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-import "./featured.scss";
+import "./featured.css";
 const Featured = () => {
   return (
     <div className='featured'>
@@ -12,14 +12,14 @@ const Featured = () => {
         />  
   <div className='info'>
      <header>
-      <img src="https://occ-0-2484-3646.1.nflxso.net/dnm/api/v6/tx1O544a9
+      {/* <img src="https://occ-0-2484-3646.1.nflxso.net/dnm/api/v6/tx1O544a9
       T7n8Z_G12qaboulQQE/AAAABYO7qfxROfC2zXPyp6FeMWAmk4j4JeAJDJA23UdvSeJ2-fJYD
       bHwWdE24Vrgp_JFtFNzwbnCvsgBxtwlS_4F1XdTTDaXLS-BZXTXJrS80YAFSZ263hbDqFhOa
       RYeO8TW0g4HpLQIhTQiJ_mQXxZpYt6H5eMYdA7SFABRAlwm85DjDCXEmk-VLQ.png?r=23b" 
-      alt="" />
+      alt="" /> */}
     
-     <br /> <br /> <br /> <br />
-     <h2 style={{color:"white"}}>Stranger Things</h2>
+     
+     <h3 style={{color:"#E50914",fontSize:'3.1rem',marginBottom:'2rem'}}>Stranger Things</h3>
      <div className='title-info-metadata-wrapper'>
       <span className='title-info-metadata-item'>
 2016

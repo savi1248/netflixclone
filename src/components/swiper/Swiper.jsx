@@ -1,5 +1,5 @@
 import React from 'react'
-import "./swiper.scss"
+import "./swiper.css"
 import movies from "../data/movies/movies.json"
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -13,7 +13,7 @@ export default  function Swiper ()  {
                     <section id="section-1">
                         <a className='Previous' href="#section-2"><ChevronLeftIcon/></a>
                     
-                {movies.slice(0, 5).map((movie, index) => (
+                {movies.slice(0, 5).map((movie) => (
                <div className='movie' style={{backgroundImage:`url(${movie.image_src})`}}> </div>
                ))}
                <a  className='Next' href="#section-2"><ChevronRightIcon/></a>

@@ -1,0 +1,29 @@
+.trenditem{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+   }
+  
+  .trendcontainer h1{
+    color: white;
+    margin-left: 40px;
+   }
+
+.trenditem .img {
+  margin-right:20px;
+  width: 30%;
+  overflow: hidden;
+  cursor: pointer;
+    }
+
+.img:hover  {
+ transform: scale(1.2);
+ 
+}
+
+@media (max-width:500px) {
+ 
+    .img{
+     width:140%;
+   }
+ }

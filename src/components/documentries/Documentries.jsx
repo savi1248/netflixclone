@@ -17,6 +17,8 @@ export default  function Swiper ()  {
                ))}
                <a  className='Next' href="#section-10"><ChevronRightIcon/></a>
             </section>
+
+            
             <section id="section-10">
             <a  className='Previous' href="#section-9"><ChevronLeftIcon/></a>
 

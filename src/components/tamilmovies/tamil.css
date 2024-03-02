@@ -1,0 +1,76 @@
+
+.netflix-list-container{
+    /* position: relative; */
+    margin-top: 20px;
+}
+.netflix-list-container .title{
+    color:white;
+    font-size: 30px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.netflix-list-container .movies .movie{
+    margin-right: 15px;
+     height: 140px;
+     background-size: cover;
+   background-position: center;
+   transition:100ms ease-in-out;
+   
+}
+ .netflix-list-container .movies .movie:hover{
+     cursor: pointer;
+     margin: 0px 10px;
+     transform: scale(1.1);
+ }
+ 
+.netflix-list-container .movies{
+    display: grid;
+    grid-template-columns: repeat(2,100%);
+    scroll-behavior: smooth;
+    margin-left: 40px;
+    overflow: hidden;
+}
+.netflix-list-container .movies section .Previous{
+    background: linear-gradient(to right, rgba(0, 0, 0,
+    0.8), transparent);
+}
+.netflix-list-container .movies section .Next{
+    background: linear-gradient(to right, rgba(0, 0, 0,
+    0.8), transparent);
+
+}
+.netflix-list-container .movies section .Next svg,
+.netflix-list-container .movies section .Previous svg{
+    color: white;
+    font-size: 40px;
+}
+
+.netflix-list-container .movies section{
+    margin: 20px 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+.netflix-list-container .movies section .Previous{
+    z-index: 3;
+  
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+
+}
+.netflix-list-container .movies section .Next{
+    position: absolute;
+    
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+
+}
+

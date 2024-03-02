@@ -1,4 +1,4 @@
-// .featured {
+/* // .featured {
 //  background: url('https://wallpaperaccess.com/full/1087433.jpg');
 //  background-position: 50%;
 //     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 //     position: absolute;
     
 //     width: 103%;
-// }
+// } */
 
 
 .featured {
@@ -33,9 +33,9 @@
         display: flex;
         flex-direction: column;
         
-    img {
+     img {
         width: 400px;
-      }
+   }
   
       .desc {
         margin: 20px 0px;
@@ -115,8 +115,8 @@
   font-size: 16px;
   color:white;
 }
-// @media (min-width: 320px) and (max-width: 320px) {
+/* // @media (min-width: 320px) and (max-width: 320px) {
 //   .featured {
 //     background-color: #de3163;
 //   }
-// }
+// } */

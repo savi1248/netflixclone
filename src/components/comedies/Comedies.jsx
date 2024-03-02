@@ -2,7 +2,7 @@ import React from 'react'
 import movies from "../data/comedies/comedies.json"
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import "./comedies.scss"
+
 export default  function Swiper ()  {
   return (
  
