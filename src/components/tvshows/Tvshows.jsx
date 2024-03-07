@@ -13,7 +13,7 @@ export default  function Swiper ()  {
                     <section id="section-3">
                         <a className='Previous' href="#section-4"><ChevronLeftIcon/></a>
                     
-                {tvshows.slice(0, 5).map((tvshow, index) => (
+                {tvshows.slice(0, 5).map((tvshow) => (
                <div className='tvshow' style={{backgroundImage:`url(${tvshow.image_src})`}}> </div>
                ))}
                <a  className='Next' href="#section-4"><ChevronRightIcon/></a>
@@ -21,7 +21,7 @@ export default  function Swiper ()  {
             <section id="section-4">
             <a  className='Previous' href="#section-3"><ChevronLeftIcon/></a>
 
-            {tvshows.slice(5, tvshows.length).map((tvshow, index) => (
+            {tvshows.slice(5, tvshows.length).map((tvshow) => (
  <div className='tvshow' style={{backgroundImage:`url(${tvshow.image_src})`}}> </div>
                ))}
                 <a  className='Next' href="#section-3"><ChevronRightIcon/></a>

@@ -17,21 +17,21 @@ const Home = () => {
     <div className='home'>
          <Navbar/>
          <Featured/>
-          {/* netflix originals */}
+         
          <List/> 
          <Toprated/>
-         {/* horror movies */}
+        
          <Movies/>
-         {/* slider 1 */}
+        
         <Swiper/>
-        {/* horror movies */}
+       
         <Tvshows/>
       
-       {/* slider 2 3 4 */}
+    
        <Comedies/> 
        <Animation/> 
         <Documentries/> 
-        {/* <Tamilmovies /> */}
+      
         <Trending />
       
     </div>

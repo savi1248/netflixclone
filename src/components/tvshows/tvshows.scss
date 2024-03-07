@@ -20,10 +20,10 @@
 }
 .tvshow-list-container .tvshows  .tvshow{
    margin-right: 15px;
-    // width: 15rem;
+   
     height: 140px;
     transition: transform 200ms ease-in-out;
-    //  margin: 200ms ease-in-out;
+   
     background-size: cover;
     background-position: center;
    
@@ -32,7 +32,7 @@
 
 .tvshow-list-container .tvshows  .tvshow:hover{
     cursor: pointer;
-    // margin: 0px 10px;
+  
     transform: scale(1.1);
     
 }

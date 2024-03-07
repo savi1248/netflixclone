@@ -17,12 +17,10 @@ export default function Swiper() {
           ))}
           <a className='Next' href="#section-12"><ChevronRightIcon /></a>
         </section>
-        {/* {movies.slice(0,5).map((movie)=>(
-          <div className='movie' style={{backgroundImage:`url(${movie.image_src})`}}></div>
-        ))} */}
+       
         <section id="section-12">
             <a  className='Previous' href="#section-11"><ChevronLeftIcon/></a>
-              {movies.slice(5, movies.length).map((movie, index) => (
+              {movies.slice(5, movies.length).map((movie) => (
          <div className='movie' style={{backgroundImage:`url(${movie.image_src})`}}> </div>
                ))}
                 <a  className='Next' href="#section-11"><ChevronRightIcon/></a>
