@@ -3,7 +3,7 @@ import Featured from '../components/featured/Featured'
 import List from '../components/list/List'
  import Movies from '../components/movies/Movies'
 import Navbar from '../components/navbar/Navbar'
-import Swiper from  '../components/swiper/Swiper'
+// import Swiper from  '../components/swiper/Swiper'
  import Animation from '../components/animation/Animation'
  import Documentries from '../components/documentries/Documentries'
 import Tvshows from '../components/tvshows/Tvshows'
@@ -23,7 +23,7 @@ const Home = () => {
         
          <Movies/>
         
-        <Swiper/>
+        {/* <Swiper/> */}
        
         <Tvshows/>
       
